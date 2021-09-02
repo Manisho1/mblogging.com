@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.protfolio {
+    background: url(/images/blog.jpg) no-repeat;
+    width: 90%;
+    height: 80%;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.top {
+    padding-top: 20vh;
+}
+
+.describtion {
+    width: 40vw;
+    height: 20vh;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    font-family: "Lato", cursive;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: black;
+    margin: 0;
+}
+
+.ping1,
+.ping2,
+.ping3 {
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.90;
+}
+
+.ping1 {
+    background-image: url(/Code/images/work.jpg);
+    min-height: 90%;
+}
+
+.ping2 {
+    background-image: url(/Code/images/solo2.png);
+    min-height: 70%;
+    min-width: 100vw;
+}
+
+.ping3 {
+    background-image: url(/Code/images/backpic.jpg);
+    min-height: 80%;
+}
+
+.ptext {
+    padding: 50vh 100vh;
+    color: white;
+}
+
+.section {
+    padding: 2vh 10vh;
+}
+
+.dark {
+    background-color: #282e34;
+    color: white
+}

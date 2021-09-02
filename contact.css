@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.contact-form {
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    background: url(/Code/images/blog.jpg)center center/cover no-repeat;
+}
+
+.info-container {
+    max-width: 50%;
+    min-width: 40%;
+    margin: 5%;
+    padding-left: 5%;
+    /* background: url(/Code/images/erenyeager.jpg); */
+}
+
+.contact-form .info-container div {
+    margin: 2vh 3vw;
+    line-height: 2.2rem;
+}
+
+.contact-form .info-container h3 {
+    color: white;
+}
+
+.contact-form .info-container p {
+    color: rgb(27, 167, 192);
+}
+
+.contact-form .second-container {
+    max-width: 50%;
+    min-width: 40%;
+    margin: 5%;
+}
+
+.form-questions {
+    padding: 2vh 3vw;
+    justify-self: center;
+}
+
+.form-questions label {
+    color: white;
+}
+
+.form-questions input {
+    border: 1px solid black;
+    border-radius: 1vw;
+    padding-left: 5%;
+    background-color: black;
+    font-weight: 700;
+}
+
+.form-questions placeholder {
+    color: white;
+}
+
+.select {
+    line-height: 2.7em;
+}
+
+.form-questions textarea {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 1vw;
+    justify-content: center;
+    padding-left: 5%;
+    font-weight: 700;
+    background-color: white;
+}
